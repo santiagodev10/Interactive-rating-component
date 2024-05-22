@@ -7,32 +7,34 @@
     <title>Interactive component</title>
 </head>
 <body>
-    <form>
-        <section class="description-section"> <!--seccion de descripcion-->
-            <figure>
-                <img src="./interactive-rating-component-main/images/icon-star.svg" alt="icon-star">
-            </figure>
-            <h1>How did we do?</h1>
-            <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+    <main>
+        <section class="interactive-card">
+            <section class="card--description-section"> <!--seccion de descripcion-->
+                <figure>
+                    <img src="./interactive-rating-component-main/images/icon-star.svg" alt="icon-star">
+                </figure>
+                <h1>How did we do?</h1>
+                <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+            </section>
+            <form class="card--form-section"> <!--seccion de formulario-->
+                <label for="1"></label>
+                <input type="text" id="1" value="1" class="input--fields">
+
+                <label for="2"></label>
+                <input type="text" id="2" value="2" class="input--fields">
+
+                <label for="3"></label>
+                <input type="text" id="3" value="3" class="input--fields">
+
+                <label for="4"></label>
+                <input type="text" id="4" value="4" class="input--fields">
+
+                <label for="5"></label>
+                <input type="text" id="5" value="5" class="input--fields">
+
+                <input type="submit" value="SUBMIT" id="button-submit">
+            </form>
         </section>
-        <section class="inputs-section"> <!--seccion de inputs-->
-            <label for="1"></label>
-            <input type="text" id="1" value="1" class="inputs--fields">
-
-            <label for="2"></label>
-            <input type="text" id="2" value="2" class="inputs--fields">
-
-            <label for="3"></label>
-            <input type="text" id="3" value="3" class="inputs--fields">
-
-            <label for="4"></label>
-            <input type="text" id="4" value="4" class="inputs--fields">
-
-            <label for="5"></label>
-            <input type="text" id="5" value="5" class="inputs--fields">
-
-            <input type="submit" value="SUBMIT" id="button-submit">
-        </section>
-    </form>
+    </main>
 </body>
 </html>

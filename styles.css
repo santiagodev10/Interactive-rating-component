@@ -23,3 +23,18 @@ html {
     - Dark Blue: hsl(213, 19%, 18%)
     - Very Dark Blue: hsl(216, 12%, 8%) */
 }
+
+main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.interactive-card {
+    width: 285px;
+    height: 50%;
+    margin: 0 auto;
+    background-color: aqua;
+    border-radius: 10px;
+}
