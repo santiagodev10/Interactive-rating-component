@@ -17,6 +17,7 @@ html {
     --Medium-grey: hsl(216, 12%, 54%);
     --Dark-blue: hsl(213, 19%, 18%);
     --Very-dark-blue: hsl(216, 12%, 8%);
+    --Orange: hsl(25, 97%, 53%);
     /* - White: hsl(0, 0%, 100%)
     - Light Grey: hsl(217, 12%, 63%)
     - Medium Grey: hsl(216, 12%, 54%)
@@ -29,13 +30,33 @@ main {
     height: 100vh;
     justify-content: center;
     align-items: center;
+    background-color: var(--Very-dark-blue);
 }
 
 .interactive-card {
-    width: 285px;
-    height: 60%;
+    width: 275px;
+    height: 50%;
     margin: 0 auto;
     border-radius: 10px;
-    padding: 20px;
-    background-color: aqua;
+    padding: 22px;
+    background-color: var(--Dark-blue);
+}
+
+.card--description-section {
+    height: 50%;
+}
+
+.card--description-section figure {
+    display: flex;
+    width: 15%;
+    height: 35px;
+    border-radius: 20px;
+    /*aun no estoy seguro del background color*/
+    background-color: hsl(216deg 13.73% 21.59%);
+    justify-content: center;
+    align-items: center;
+}
+
+.card--description-section figure img {
+    width: 13px;
 }
