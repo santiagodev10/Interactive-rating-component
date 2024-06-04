@@ -99,6 +99,10 @@ main {
     cursor: pointer;
 }
 
+.card__input-container:hover {
+    background-color: var(--Orange);
+}
+
 .input__fields {
     width: 100%;
     visibility: hidden;
@@ -125,6 +129,11 @@ label {
     font-family: "Overpass", sans-serif;
     color: var(--White);
     letter-spacing: 2px;
+}
+
+#button-submit:hover {
+    background-color: var(--White);
+    color: var(--Orange);
 }
 
 /*Tarjeta de agradecimiento*/
