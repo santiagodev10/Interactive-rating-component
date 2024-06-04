@@ -8,7 +8,7 @@
 
 html {
     font-size: 62.5%;
-    font-family: "Overpass";
+    font-family: "Overpass", sans-serif;
     /* font-family: "DM Sans", sans-serif; */
 }
 
@@ -35,7 +35,7 @@ main {
 }
 
 .interactive-card {
-    width: 270px;
+    width: 280px;
     height: 50%;
     margin: 0 auto;
     border-radius: 10px;
@@ -73,7 +73,7 @@ main {
 
 .card--description-section p {
     margin-top: 8px;
-    font-size: 11.5px;
+    font-size: 12px;
     font-weight: 400;
     color: var(--Medium-grey);
     line-height: 18px;
@@ -113,7 +113,16 @@ label {
 }
 
 #button-submit {
+    width: 98%;
+    height: 40px;
     position: absolute;
-    top: 85px;
+    top: 75px;
+    border: none;
+    border-radius: 20px;
+    background: var(--Orange);
     cursor: pointer;
+    font-size: 12px;
+    font-family: "Overpass", sans-serif;
+    color: var(--White);
+    letter-spacing: 2px;
 }
