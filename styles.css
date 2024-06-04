@@ -34,10 +34,6 @@ main {
     background-color: var(--Very-dark-blue);
 }
 
-.interactive-card--hidden {
-    display: none;
-}
-
 .interactive-card {
     width: 280px;
     height: 50%;
@@ -133,3 +129,48 @@ label {
 
 /*Tarjeta de agradecimiento*/
 
+.thank-you-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.thank-you-card figure {
+    width: 100%;
+    text-align: center;
+}
+
+.thank-you-card figure img {
+    width: 53%;
+}
+
+.card__rating-selection-container {
+    width: 60%;
+    height: 25px;
+    margin-top: 20px;
+    border-radius: 15px;
+    align-content: center;
+    background: hsl(216deg 13.73% 21.59%);
+}
+
+.card__rating-selection-container p {
+    font-size: 12px;
+    color: var(--Orange);
+}
+
+.thank-you-card__thank-you-text {
+    margin-top: 20px;
+    font-size: 22px;
+    color: var(--White);
+}
+
+.thank-you-card__thank-you-message {
+    margin-top: 12px;
+    font-size: 12px;
+    color: var(--Medium-grey);
+}
+
+.interactive-card--hidden {
+    display: none;
+}
