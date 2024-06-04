@@ -11,42 +11,53 @@
 </head>
 <body>
     <main>
-        <section class="interactive-card">
-            <section class="card--description-section"> <!--seccion de descripcion-->
+        <section class="interactive-card interactive-card--hidden">
+            <section class="card__description-section"> <!--seccion de descripcion-->
                 <figure>
                     <img src="./interactive-rating-component-main/images/icon-star.svg" alt="icon-star">
                 </figure>
                 <h1>How did we do?</h1>
                 <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
             </section>
-            <form class="card--form-section"> <!--seccion de formulario-->
-                <div class="card--input-container">
+            <form class="card__form-section"> <!--seccion de formulario-->
+                <div class="card__input-container">
                     <label for="1">1</label>
-                    <input type="radio" id="1" value="1" class="input--fields">
+                    <input type="radio" id="1" value="1" class="input__fields">
                 </div>
 
-                <div class="card--input-container">
+                <div class="card__input-container">
                     <label for="2">2</label>
-                    <input type="radio" id="2" value="2" class="input--fields">
+                    <input type="radio" id="2" value="2" class="input__fields">
                 </div>
 
-                <div class="card--input-container">
+                <div class="card__input-container">
                     <label for="3">3</label>
-                    <input type="radio" id="3" value="3" class="input--fields">
+                    <input type="radio" id="3" value="3" class="input__fields">
                 </div>
 
-                <div class="card--input-container">
+                <div class="card__input-container">
                     <label for="4">4</label>
-                    <input type="radio" id="4" value="4" class="input--fields">
+                    <input type="radio" id="4" value="4" class="input__fields">
                 </div>
                 
-                <div class="card--input-container">
+                <div class="card__input-container">
                     <label for="5">5</label>
-                    <input type="radio" id="5" value="5" class="input--fields">
+                    <input type="radio" id="5" value="5" class="input__fields">
                 </div>
     
                 <input type="submit" value="SUBMIT" id="button-submit">
             </form>
+        </section>
+
+        <section class="interactive-card">
+            <figure>
+                <img src="./interactive-rating-component-main/images/illustration-thank-you.svg" alt="thank-you-image">
+            </figure>
+            <div class="card__rating-selection-container">
+                <p>You selected <span>4</span> out of 5</p>
+            </div>
+            <p>Thank you!</p>
+            <p>We appreciate you taking the time to give a rating. If you ever need more support, don`t hesitate to get in touch!</p>
         </section>
     </main>
 </body>

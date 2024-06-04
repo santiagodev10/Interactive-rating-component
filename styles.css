@@ -34,6 +34,10 @@ main {
     background-color: var(--Very-dark-blue);
 }
 
+.interactive-card--hidden {
+    display: none;
+}
+
 .interactive-card {
     width: 280px;
     height: 50%;
@@ -43,11 +47,11 @@ main {
     background-color: var(--Dark-blue);
 }
 
-.card--description-section {
+.card__description-section {
     height: 55%;
 }
 
-.card--description-section figure {
+.card__description-section figure {
     display: flex;
     width: 15%;
     height: 35px;
@@ -58,11 +62,11 @@ main {
     align-items: center;
 }
 
-.card--description-section figure img {
+.card__description-section figure img {
     width: 12px;
 }
 
-.card--description-section h1 {
+.card__description-section h1 {
     margin-top: 15px;
     font-size: 20px;
     /* font-family: "Overpass", sans-serif; */
@@ -71,7 +75,7 @@ main {
     letter-spacing: 1px;
 }
 
-.card--description-section p {
+.card__description-section p {
     margin-top: 8px;
     font-size: 12px;
     font-weight: 400;
@@ -79,7 +83,7 @@ main {
     line-height: 18px;
 }
 
-.card--form-section {
+.card__form-section {
     height: 45%;
     display: flex;
     justify-content: center;
@@ -88,7 +92,7 @@ main {
     gap: 15px;
 }
 
-.card--input-container {
+.card__input-container {
     display: flex;
     width: 15%;
     height: 30%;
@@ -99,7 +103,7 @@ main {
     cursor: pointer;
 }
 
-.input--fields {
+.input__fields {
     width: 100%;
     visibility: hidden;
 }
@@ -126,3 +130,6 @@ label {
     color: var(--White);
     letter-spacing: 2px;
 }
+
+/*Tarjeta de agradecimiento*/
+
