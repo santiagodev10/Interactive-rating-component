@@ -11,7 +11,7 @@
 </head>
 <body>
     <main>
-        <section class="interactive-card">
+        <section class="interactive-card" id="rating-component">
             <section class="card__description-section"> <!--seccion de descripcion-->
                 <figure>
                     <img src="./interactive-rating-component-main/images/icon-star.svg" alt="icon-star">
@@ -54,12 +54,12 @@
             </form>
         </section>
 
-        <section class="interactive-card thank-you-card interactive-card--hidden">
+        <section class="interactive-card thank-you-card interactive-card--hidden" id="thank-you-component">
             <figure>
                 <img src="./interactive-rating-component-main/images/illustration-thank-you.svg" alt="thank-you-image">
             </figure>
             <div class="card__rating-selection-container">
-                <p>You selected <span>4</span> out of 5</p>
+                <p>You selected <span class="rating-number">4</span> out of 5</p>
             </div>
             <p class="thank-you-card__thank-you-text">Thank you!</p>
             <p class="thank-you-card__thank-you-message">We appreciate you taking the time to give a rating. If you ever need more support, don`t hesitate to get in touch!</p>
