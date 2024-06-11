@@ -36,7 +36,7 @@ main {
 
 .interactive-card {
     width: 280px;
-    height: 50%;
+    height: 320px;
     margin: 0 auto;
     border-radius: 10px;
     padding: 20px;
@@ -44,7 +44,7 @@ main {
 }
 
 .card__description-section {
-    height: 55%;
+    height: 50%;
 }
 
 .card__description-section figure {
@@ -127,7 +127,7 @@ label {
     width: 98%;
     height: 40px;
     position: absolute;
-    top: 75px;
+    top: 85px;
     border: none;
     border-radius: 20px;
     background: var(--Orange);
