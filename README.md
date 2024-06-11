@@ -26,8 +26,8 @@ Users should be able to:
 ### Screenshot
 [![rating-component.png](https://i.postimg.cc/1Xkb5qKL/rating-component.png)](https://postimg.cc/wRkww3ZV)
 ### Links
-- Solution URL:
-- Live Site URL:
+- Solution URL: https://www.frontendmentor.io/solutions/rating-component-using-html-css-and-javascript-9w1c5LEWSd
+- Live Site URL: https://santiagodev10.github.io/Interactive-rating-component/
 # My process
 
 ### Built with
